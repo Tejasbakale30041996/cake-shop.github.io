@@ -1,0 +1,2757 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+
+
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background: #eaeffa;
+
+    /* font-family: 'Alata', sans-serif;
+    font-family: 'Ibarra Real Nova', serif; */
+
+}
+
+::selection {
+
+    background-color: #d53c3c;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container2 {
+
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.row {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+
+    width: 75%;
+}
+
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.header .header-logo {
+
+    text-align: center;
+
+
+}
+
+.header .header-logo img {
+
+    width: 200px;
+    margin-top: 20px;
+}
+
+.header .nav {
+
+    text-align: center;
+}
+
+.header .nav ul {
+
+    list-style: none;
+}
+
+.header .nav ul li {
+
+    display: inline-block;
+    padding-right: 25px;
+    padding-top: 30px;
+}
+
+.header .nav ul li a {
+
+    text-decoration: none;
+
+    color: #616161;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    transition: .2s linear
+}
+
+.header .nav .home {
+
+    color: #000;
+}
+
+.header .nav ul li a:hover:not(.home) {
+
+    color: #000;
+}
+
+.cake h1 {
+
+    font-size: 160px;
+
+    font-weight: 400;
+    font-family: 'Ibarra Real Nova', serif;
+    padding-top: 150px;
+    line-height: 1.0;
+}
+
+.cake-right {
+
+    padding-top: 100px;
+    text-align: right;
+}
+
+.cake-right span {
+
+    font-size: 75px;
+    color: #d53c3c;
+}
+
+.cake-right p {
+
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #616161;
+    line-height: 1.7;
+    max-width: 300px;
+    text-align: right;
+    margin-left: 80px;
+}
+
+.cake-right h4 {
+
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #000;
+    padding-top: 30px;
+    padding-right: 70px;
+}
+
+.cake-right img {
+
+    width: 140px;
+    transform: translateY(-50px);
+}
+
+.cake-img {
+
+    text-align: center;
+
+}
+
+.cake-img img {
+
+    margin-top: 40px;
+    width: 320px;
+    height: 320px;
+}
+
+.welcome {
+
+    background: url(../../img/bg-03-free-img.jpg) no-repeat;
+    background-size: cover;
+    margin-top: 200px;
+
+}
+
+.welcome-img img {
+
+    width: 632px;
+    height: 461px;
+    transform: translateY(-100px);
+}
+
+.welcome .welcome-content {
+
+    text-align: center;
+}
+
+.welcome .welcome-content h1 {
+
+    font-size: 90px;
+
+    font-weight: 400;
+    font-family: 'Ibarra Real Nova', serif;
+    color: #000;
+
+}
+
+.welcome .welcome-content h4 {
+
+    color: #000000;
+    font-size: 21px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 400;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.welcome .welcome-content h2 {
+
+    font-size: 50px;
+
+    font-weight: 400;
+    font-family: 'Ibarra Real Nova', serif;
+    max-width: 571px;
+    margin: 0 auto;
+    line-height: 1.2;
+
+}
+
+.welcome .welcome-content p {
+
+    color: #616161;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.5;
+    max-width: 622px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.welcome .welcome-content .btn {
+
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+
+    text-align: center;
+    padding: 12px 30px;
+    border: none;
+    background: #d53c3c;
+    color: #fff;
+    transition: .2s linear;
+    cursor: pointer;
+
+}
+
+.welcome .welcome-content .btn:hover {
+
+    background: #000;
+    color: #fff;
+
+}
+
+.welcome .our {
+
+    text-align: center;
+}
+
+.welcome .our h1 {
+
+    font-size: 90px;
+
+    font-weight: 400;
+    font-family: 'Ibarra Real Nova', serif;
+    padding-top: 50px;
+    color: #000;
+}
+
+.welcome .our h4 {
+
+    font-size: 21px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 15px;
+    padding-bottom: 150px;
+}
+
+.fruit {
+
+    text-align: center;
+    background: #fff;
+
+    transform: translateY(-50px);
+    width: 380px;
+
+}
+
+.fruit img {
+
+    width: 380px;
+    height: 360px;
+    cursor: pointer;
+}
+
+.fruit h4 {
+
+    color: #d53c3c;
+    font-size: 21px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.fruit h1 {
+
+    cursor: pointer;
+    font-size: 50px;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Ibarra Real Nova', serif;
+    padding-bottom: 10px;
+}
+
+.fruit p {
+
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #616161;
+    line-height: 1.7;
+    max-width: 318px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.fruit-bottom {
+
+    transform: translateY(0);
+}
+
+.maria {
+
+    text-align: center;
+}
+
+.maria img {
+
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+.maria h4 {
+
+    font-size: 21px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.maria span {
+
+    font-size: 20px;
+    color: #d53c3c;
+}
+
+.maria p {
+
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #616161;
+    max-width: 847px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.footer img {
+
+    width: 140px;
+    margin-top: 100px;
+
+}
+
+.footer h3 {
+
+    font-size: 30px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+}
+
+.footer p {
+
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #616161;
+    max-width: 578px;
+    padding-bottom: 50px;
+
+}
+
+.footer-right {
+
+    text-align: right;
+}
+
+.footer-right h1 {
+
+    padding-top: 100px;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 400;
+    color: #000000;
+    padding-bottom: 8px;
+
+}
+
+.footer-right h3 {
+
+    font-size: 21px;
+    color: #000000;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 400;
+}
+
+.footer-right .icon {
+
+    padding-top: 20px;
+}
+
+.footer-right .icon span {
+
+    font-size: 22px;
+    color: #d53c3c;
+    padding-right: 15px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.footer-right .icon .icon-facebook-circled:hover {
+
+    color: #000000;
+}
+
+.footer-right .icon .icon-twitter:hover {
+
+    color: #000000;
+}
+
+.footer-right .icon .icon-instagram:hover {
+
+    color: #000000;
+}
+
+.footer-right .icon .icon-youtube-play:hover {
+
+    color: #000000;
+}
+
+
+/* =================================================== Style of About ============================================================= */
+/* =================================================== Style of About ============================================================= */
+
+.about-us h1 {
+
+    font-size: 160px;
+
+    font-weight: 400;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.about-us h1::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 2px solid #000000;
+
+}
+
+.about-cake h4 {
+
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #616161;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about-cake h1 {
+
+    font-size: 90px;
+
+    color: #000000;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 400;
+    line-height: 1.2;
+    max-width: 600px;
+}
+
+.about-lorem p {
+
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #616161;
+    line-height: 1.7;
+    max-width: 340px;
+    padding-top: 50px;
+    position: relative;
+    padding-bottom: 114px;
+}
+
+.about-lorem p::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 2px solid #616161;
+
+
+
+}
+
+
+.about-lorem-img img {
+
+    margin-top: 50px;
+    width: 330px;
+    height: 378px;
+}
+
+.about-lorem-img {
+
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.about-lorem-img::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 2px solid #616161;
+
+}
+
+.about-for img {
+
+    width: 115px;
+    height: 98px;
+    margin-top: 50px;
+}
+
+
+.about-for h5 {
+
+    font-size: 13px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 400;
+    color: #d53c3c;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.about-for h1 {
+
+
+    font-size: 90px;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Ibarra Real Nova', serif;
+    padding-bottom: 10px;
+
+}
+
+.about-for p {
+
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #616161;
+    line-height: 1.7;
+    max-width: 322px;
+}
+
+
+/* ============================================================= Style of Cake ====================================================== */
+/* ============================================================= Style of Cake ====================================================== */
+
+.cake-our h1 {
+
+    font-size: 160px;
+
+    font-weight: 400;
+    font-family: 'Ibarra Real Nova', serif;
+    color: #000000;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.cake-fruit {
+
+    text-align: center;
+    width: 380px;
+}
+
+.cake-fruit img {
+
+
+    width: 360px;
+    height: 341px;
+    margin-top: 30px;
+
+}
+
+.cake-fruit h4 {
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Ibarra Real Nova', serif;
+    color: #d53c3c;
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+
+.cake-fruit h1 {
+
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Ibarra Real Nova', serif;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+.cake-fruit p {
+
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #616161;
+    margin: 0 auto;
+    max-width: 400px;
+    line-height: 1.7;
+}
+
+
+
+/* ===================================================== Style of Testimonial ======================================================= */
+/* ===================================================== Style of Testimonial ======================================================= */
+
+
+.testimonial h1 {
+
+    font-size: 160px;
+
+    font-weight: 400;
+    font-family: 'Ibarra Real Nova', serif;
+    color: #000000;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.testimonial-click p {
+
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #616161;
+    line-height: 1.7;
+    max-width: 522px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.testimonial-click p::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-top: 2px solid #616161;
+
+}
+
+.kim-main {
+
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.kim-main .kim-left img {
+
+    border-radius: 50%;
+}
+
+.kim-main .kim-right h4 {
+
+    font-size: 21px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    color: #000000;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.kim-main .kim-right h5 {
+
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Ibarra Real Nova', serif;
+    color: #d53c3c;
+    padding-left: 20px;
+}
+
+
+/* =================================================== Style of Contact======================================================== */
+/* =================================================== Style of Contact======================================================== */
+
+.contact h1 {
+
+    font-size: 160px;
+
+    font-weight: 400;
+    font-family: 'Ibarra Real Nova', serif;
+    color: #000000;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.contact h1::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 2px solid #616161;
+
+}
+
+.contact-message h1 {
+
+    font-size: 90px;
+
+    font-weight: 400;
+    font-family: 'Ibarra Real Nova', serif;
+    padding-top: 100px;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+.contact-message p {
+
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #616161;
+    line-height: 1.5;
+    max-width: 370px;
+}
+
+.contact-form {
+
+    padding-top: 100px;
+}
+
+.contact-form label {
+
+    font-family: 'Alata', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #616161;
+}
+
+.contact-form input[ type=text] {
+
+    color: #666;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    background: #fafafa;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    outline: none;
+    padding: 12px;
+    width: 270px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    transition: .2s linear;
+}
+
+.contact-form input[ type=text]:focus {
+
+    border: 1px dotted #000;
+}
+
+.contact-form input[ type=email] {
+
+    color: #666;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    background: #fafafa;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    outline: none;
+    padding: 12px;
+    width: 542px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    transition: .2s linear;
+}
+
+.contact-form input[ type=email]:focus {
+
+    border: 1px dotted #000;
+}
+
+.contact-form textarea {
+
+    color: #666;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    background: #fafafa;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    outline: none;
+    padding: 12px;
+    width: 542px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    height: 100px;
+    transition: .2s linear;
+}
+
+.contact-form textarea:focus {
+
+    border: 1px dotted #000;
+}
+
+.contact-form input[ type=submit] {
+
+    padding: 15px 30px;
+    background: #d53c3c;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+    transition: .2s linear;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.contact-form input[ type=submit]:hover {
+
+    background: #000;
+}
+
+
+
+.contact-email h5 {
+
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Ibarra Real Nova', serif;
+    color: #d53c3c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+
+}
+
+.contact-email h5::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-top: 2px solid #616161;
+    width: 250px;
+
+}
+
+.contact-email h3 {
+
+    cursor: pointer;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Ibarra Real Nova', serif;
+    color: #000000;
+    line-height: 1.5;
+    max-width: 266px;
+
+
+}
+
+
+
+
+.contact-email .icon span {
+
+    font-size: 16px;
+    border-radius: 50%;
+    border: none;
+    background: #d53c3c;
+    color: #fff;
+    padding: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: .2s linear;
+
+}
+
+.contact-email .icon .icon-facebook:hover {
+
+    background: #000000;
+    color: #fff;
+}
+
+.contact-email .icon .icon-twitter:hover {
+
+
+    background: #000000;
+    color: #fff;
+}
+
+.contact-email .icon .icon-instagram:hover {
+
+
+    background: #000000;
+    color: #fff;
+}
+
+.contact-email .icon .icon-youtube-play:hover {
+
+
+    background: #000000;
+    color: #fff;
+}
+
+.contact-map iframe {
+
+    margin-top: 50px;
+    width: 1200px;
+    height: 500px;
+}
+
+
+/* ================================================== Media querie for Home ==================================================== */
+/* ================================================== Media querie for Home ==================================================== */
+
+@media screen and (max-width:1024px) {
+
+    .container {
+
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .header .header-logo img {
+
+        width: 150px;
+    }
+
+    .header .nav ul li a {
+
+        font-size: 15px;
+    }
+
+    .header .nav ul li {
+
+        padding-top: 20px;
+    }
+
+    .cake h1 {
+
+        font-size: 90px;
+        padding-top: 70px;
+        padding-left: 10px;
+    }
+
+    .cake-right {
+
+        padding-top: 70px;
+    }
+
+    .cake-right span {
+
+        font-size: 50px;
+        padding-right: 10px;
+    }
+
+    .cake-right p {
+
+        font-size: 16px;
+        padding-right: 10px;
+    }
+
+    .cake-right h4 {
+
+        font-size: 16px;
+        padding-top: 20px;
+    }
+
+    .cake-right img {
+
+        width: 120px;
+        transform: translateY(-40px);
+        margin-right: 10px;
+    }
+
+    .cake-img img {
+
+        margin-top: 30px;
+        width: 280px;
+        height: 280px;
+    }
+
+    .welcome {
+
+        margin-top: 130px;
+
+    }
+
+    .welcome-img img {
+
+        width: 519px;
+        height: 347px;
+        transform: translateY(-76px);
+
+
+    }
+
+    .welcome .welcome-content h1 {
+
+        font-size: 70px;
+    }
+
+    .welcome .welcome-content h4 {
+
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .welcome .welcome-content h2 {
+
+        font-size: 38px;
+    }
+
+    .welcome .welcome-content p {
+
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .welcome .welcome-content .btn {
+
+        padding: 10px 20px;
+    }
+
+    .welcome .our h1 {
+
+        font-size: 70px;
+        padding-top: 30px;
+    }
+
+    .welcome .our h4 {
+
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 100px;
+
+    }
+
+    .fruit {
+
+        margin-left: 10px;
+        width: 320px;
+
+
+    }
+
+    .fruit img {
+
+        width: 300px;
+        height: 300px;
+    }
+
+    .fruit h4 {
+
+        font-size: 18px;
+        padding-top: 5px;
+    }
+
+    .fruit h1 {
+
+        font-size: 30px;
+    }
+
+    .fruit p {
+
+        font-size: 15px;
+    }
+
+
+    .maria img {
+
+        margin-top: 50px;
+    }
+
+    .maria h4 {
+
+        font-size: 18px;
+    }
+
+    .maria p {
+
+        font-size: 15px;
+        max-width: 766px;
+    }
+
+    .footer img {
+
+        width: 120px;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+
+    .footer h3 {
+
+        font-size: 22px;
+        padding-left: 10px;
+    }
+
+    .footer p {
+
+        font-size: 15px;
+        padding-left: 10px;
+        max-width: 463px;
+        padding-bottom: 40px;
+    }
+
+    .footer-right h1 {
+
+        padding-top: 50px;
+        padding-right: 10px;
+        font-size: 30px;
+    }
+
+    .footer-right h3 {
+
+        padding-right: 10px;
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+
+    .container {
+
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .header .header-logo img {
+        width: 100px;
+    }
+
+    .header .nav ul li {
+
+        padding-top: 15px;
+        padding-right: 20px;
+    }
+
+    .cake h1 {
+
+        font-size: 40px;
+        padding-top: 140px;
+    }
+
+    .cake-right span {
+
+        font-size: 30px;
+    }
+
+    .cake-right {
+        padding-top: 40px;
+    }
+
+    .cake-right p {
+
+        font-size: 15px;
+    }
+
+    .cake-right h4 {
+
+        font-size: 15px;
+    }
+
+    .cake-right img {
+
+        width: 90px;
+    }
+
+    .cake-img img {
+
+        width: 210px;
+        height: 210px;
+        margin-top: 10px;
+    }
+
+    .welcome {
+        margin-top: 100px;
+    }
+
+    .welcome-img img {
+        width: 400px;
+        height: 274px;
+        transform: translateY(-60px);
+    }
+
+    .welcome .welcome-content h1 {
+        font-size: 50px;
+    }
+
+    .welcome .welcome-content h4 {
+
+        padding-bottom: 15px;
+
+    }
+
+    .welcome .welcome-content h2 {
+        font-size: 25px;
+        max-width: 430px;
+    }
+
+    .welcome .welcome-content p {
+
+        max-width: 557px;
+    }
+
+    .welcome .our h1 {
+
+        font-size: 40px;
+    }
+
+    .welcome .our h4 {
+
+        font-size: 16px;
+        padding-bottom: 60px;
+    }
+
+    .fruit {
+
+        width: 236px;
+        transform: translateY(-40px);
+
+    }
+
+
+    .fruit img {
+
+        width: 236px;
+        height: 236px;
+    }
+
+    .fruit h4 {
+
+        font-size: 16px;
+    }
+
+    .fruit h1 {
+
+        font-size: 22px;
+    }
+
+    .fruit p {
+
+        font-size: 14px;
+    }
+
+    .fruit-bottom {
+
+        margin-top: 30px;
+    }
+
+    .maria img {
+
+        margin-top: 10px;
+    }
+
+    .maria h4 {
+
+        font-size: 16px;
+    }
+
+    .maria span {
+
+        font-size: 18px;
+    }
+
+    .maria p {
+
+        max-width: 650px;
+    }
+
+    .footer img {
+
+        width: 100px;
+        margin-top: 40px;
+    }
+
+    .footer h3 {
+
+        font-size: 20px;
+    }
+
+    .footer p {
+
+        max-width: 331px;
+        padding-bottom: 30px;
+    }
+
+    .footer-right h1 {
+
+        padding-top: 40px;
+        font-size: 20px;
+    }
+
+    .footer-right h3 {
+
+        font-size: 16px;
+    }
+
+    .footer-right .icon {
+        padding-top: 15px;
+    }
+
+    .footer-right .icon span {
+
+        font-size: 20px;
+        padding-right: 10px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+
+    .container {
+
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    [ class *="col-"] {
+
+        width: 100%;
+    }
+
+    .header .nav ul li {
+
+        padding-right: 0;
+        text-align: center;
+        display: block;
+        padding-bottom: 15px;
+    }
+
+    .cake h1 {
+
+        font-size: 30px;
+        padding-top: 30px;
+    }
+
+    .cake-right {
+
+        padding-top: 30px;
+        text-align: left;
+    }
+
+    .cake-right span {
+
+        font-size: 22px;
+        padding-right: 0;
+    }
+
+    .cake-right p {
+
+        text-align: left;
+        margin-right: 0;
+        margin-left: 0;
+        padding-left: 10px;
+        max-width: 300px;
+
+    }
+
+    .cake-right h4 {
+
+        padding-left: 10px;
+        margin-right: 0;
+    }
+
+    .cake-right img {
+
+        margin-right: 0;
+        margin-left: 30px;
+    }
+
+    .cake-img img {
+
+        width: 300px;
+        height: 300px;
+    }
+
+    .welcome {
+        margin-top: 55px;
+    }
+
+    .welcome-img img {
+        width: 225px;
+        height: 210px;
+        transform: translateY(-45px);
+    }
+
+    .welcome .welcome-content h1 {
+
+        font-size: 30px;
+    }
+
+    .welcome .welcome-content h4 {
+
+        font-size: 15px;
+    }
+
+    .welcome .welcome-content h2 {
+
+        font-size: 20px;
+        max-width: 300px;
+    }
+
+    .welcome .welcome-content p {
+
+        max-width: 300px;
+    }
+
+    .welcome .our h1 {
+
+        font-size: 30px;
+
+    }
+
+    .welcome .our h4 {
+
+        font-size: 15px;
+        padding-bottom: 40px;
+    }
+
+    .fruit {
+
+        width: 300px;
+        transform: translateY(0px);
+        margin-top: 20px;
+    }
+
+
+
+    .fruit img {
+
+        width: 300px;
+        height: 300px;
+    }
+
+    .maria img {
+
+        width: 70px;
+        height: 70px;
+    }
+
+    .maria p {
+
+        max-width: 300px;
+    }
+
+    .footer p {
+
+        max-width: 300px;
+        padding-bottom: 0;
+    }
+
+    .footer-right {
+
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .footer-right .icon {
+
+        padding-bottom: 40px;
+    }
+
+}
+
+
+/* ======================================================= Media querie for About =============================================== */
+/* ======================================================= Media querie for About =============================================== */
+
+@media screen and (max-width:1024px) {
+
+
+
+    .container {
+
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .about-us h1 {
+
+        padding-left: 10px;
+        padding-top: 50px;
+        font-size: 100px;
+        padding-bottom: 20px;
+    }
+
+    .about-us h1::after {
+
+        left: 10px;
+        width: 1004px;
+    }
+
+    .about-cake h4 {
+
+        font-size: 15px;
+        padding-left: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .about-cake h1 {
+
+        font-size: 40px;
+        padding-left: 10px;
+    }
+
+    .about-lorem p {
+
+        padding-top: 40px;
+        padding-left: 10px;
+        font-size: 15px;
+        max-width: 300px;
+        padding-bottom: 40px;
+    }
+
+    .about-lorem p::after {
+
+        left: 10px;
+    }
+
+    .about-lorem-img img {
+
+        margin-top: 40px;
+        width: 303px;
+        height: 299px;
+    }
+
+    .about-lorem-img {
+        padding-bottom: 40px;
+    }
+
+    .about-lorem-img::after {
+
+        width: 305px;
+    }
+
+    .about-lorem-img::after {
+
+        width: 305px;
+    }
+
+    .about-for img {
+
+
+        margin-left: 10px;
+        margin-top: 40px;
+        width: 90px;
+        height: 80px;
+    }
+
+    .about-for h5 {
+
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+
+    .about-for h1 {
+        font-size: 40px;
+        padding-left: 10px;
+    }
+
+    .about-for p {
+
+        font-size: 15px;
+        padding-left: 10px;
+        max-width: 291px;
+    }
+}
+
+@media screen and (max-width:991px) {
+
+    .container {
+
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .about-us h1 {
+        font-size: 50px;
+        padding-top: 40px;
+        padding-bottom: 15px;
+    }
+
+    .about-us h1::after {
+
+        width: 748px;
+    }
+
+    .about-cake h4 {
+        padding-bottom: 15px;
+
+    }
+
+    .about-cake h1 {
+
+        font-size: 28px;
+    }
+
+    .about-lorem p {
+        padding-top: 30px;
+        font-size: 14px;
+        max-width: 232px;
+        padding-bottom: 30px;
+    }
+
+    .about-lorem-img img {
+
+        margin-top: 30px;
+        width: 246px;
+        height: 247px;
+    }
+
+    .about-lorem-img::after {
+
+
+        width: 246px;
+    }
+
+    .about-for img {
+
+        margin-top: 30px;
+        width: 80px;
+        height: 70px;
+    }
+
+    .about-for h5 {
+
+        padding-top: 5px;
+    }
+
+    .about-for h1 {
+        font-size: 28px;
+    }
+
+    .about-for p {
+        font-size: 14px;
+        max-width: 227px;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+
+    .container {
+
+        max-width: 767px;
+        margin: 0 auto;
+
+    }
+
+    [ class *="col-"] {
+
+        width: 100%;
+    }
+
+    .about-us h1 {
+        font-size: 35px;
+        padding-top: 30px;
+        padding-bottom: 12px;
+    }
+
+    .about-us h1::after {
+
+        width: 300px;
+    }
+
+    .about-cake h1 {
+        font-size: 21px;
+    }
+
+    .about-lorem p {
+        padding-top: 25px;
+        max-width: 300px;
+        padding-bottom: 25px;
+
+    }
+
+    .about-lorem p::after {
+
+        width: 300px;
+    }
+
+    .about-lorem-img {
+        padding-bottom: 25px;
+
+    }
+
+    .about-lorem-img img {
+
+        margin-top: 25px;
+        margin-left: 10px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .about-lorem-img::after {
+
+        left: 10px;
+        width: 300px;
+    }
+
+    .about-for img {
+        margin-top: 30px;
+        width: 300px;
+        height: 270px;
+    }
+
+
+    .about-for h1 {
+        font-size: 25px;
+    }
+
+    .about-for p {
+
+        max-width: 300px;
+    }
+}
+
+
+/* ========================================================= Media querie for Cake ============================================= */
+/* ========================================================= Media querie for Cake ============================================= */
+
+@media screen and (max-width:1024px) {
+
+    .container {
+
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .cake-our h1 {
+
+        font-size: 100px;
+        padding-top: 50px;
+    }
+
+
+
+    .cake-fruit {
+
+        width: 330px;
+    }
+
+    .cake-fruit img {
+
+        width: 270px;
+        height: 270px;
+    }
+
+    .cake-fruit h4 {
+
+        font-size: 18px;
+    }
+
+    .cake-fruit h1 {
+
+        font-size: 28px;
+    }
+
+    .cake-fruit p {
+
+        font-size: 15px;
+        max-width: 257px;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+
+    .container {
+
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .cake-our h1 {
+
+        font-size: 50px;
+        padding-top: 40px;
+    }
+
+    .cake-fruit {
+
+        width: 250px;
+    }
+
+    .cake-fruit img {
+
+        width: 200px;
+        height: 200px;
+    }
+
+    .cake-fruit h4 {
+
+        font-size: 16px;
+        padding-top: 15px;
+    }
+
+    .cake-fruit h1 {
+
+        font-size: 24px;
+    }
+
+    .cake-fruit p {
+
+        font-size: 14px;
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .container {
+
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    [ class *="col-"] {
+
+        width: 100%;
+    }
+
+    .cake-our h1 {
+
+        font-size: 35px;
+        padding-top: 30px;
+    }
+
+    .cake-fruit {
+        width: 320px;
+    }
+
+    .cake-fruit img {
+        width: 300px;
+        height: 300px;
+    }
+
+
+    .cake-fruit p {
+
+        max-width: 300px;
+    }
+}
+
+
+/* ======================================================== Media querie for Testimonial ===================================== */
+/* ======================================================== Media querie for Testimonial ===================================== */
+
+@media screen and (max-width:1024px) {
+
+    .container {
+
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .testimonial h1 {
+
+        font-size: 100px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+    }
+
+    .testimonial-click p {
+
+        font-size: 15px;
+        padding-left: 10px;
+        max-width: 406px;
+        padding-top: 20px;
+    }
+
+    .testimonial-click p::after {
+
+        left: 10px;
+    }
+
+    .kim-main .kim-left img {
+
+        margin-left: 10px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .kim-main .kim-right h4 {
+
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:991px) {
+
+    .container {
+
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+
+    .testimonial h1 {
+
+        font-size: 50px;
+        padding-top: 40px;
+    }
+
+    .testimonial-click p {
+
+        font-size: 14px;
+        padding-top: 15px;
+        max-width: 332px;
+    }
+
+    .kim-main {
+
+        padding-bottom: 30px;
+    }
+
+    .kim-main .kim-left img {
+
+        width: 60px;
+        height: 60px;
+    }
+
+    .kim-main .kim-right h4 {
+
+        font-size: 16px;
+    }
+
+
+}
+
+@media screen and (max-width:767px) {
+
+    .container {
+
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    [ class *="col-"] {
+
+        width: 100%;
+    }
+
+    .testimonial h1 {
+        font-size: 35px;
+        padding-top: 30px;
+    }
+
+    .testimonial-click p {
+
+        max-width: 300px;
+    }
+
+
+    .testimonial-click p::after {
+
+        width: 300px;
+    }
+}
+
+
+
+/* ======================================================= Media querie for Contact ============================================= */
+/* ======================================================= Media querie for Contact ============================================= */
+
+@media screen and (max-width:1024px) {
+
+    .container {
+
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+
+    .contact h1 {
+
+        font-size: 100px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+
+    }
+
+    .contact h1::after {
+
+        left: 10px;
+        width: 1004px;
+    }
+
+    .contact-message h1 {
+
+        font-size: 50px;
+        padding-left: 10px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .contact-message p {
+
+        font-size: 15px;
+        padding-left: 10px;
+        max-width: 330px;
+    }
+
+    .contact-form {
+
+        padding-top: 50px;
+    }
+
+    .contact-form label {
+
+        font-size: 15px;
+    }
+
+    .contact-form input[ type=text] {
+
+        font-size: 15px;
+        padding: 10px;
+        width: 230px;
+    }
+
+    .contact-form input[ type=email] {
+        font-size: 15px;
+        padding: 10px;
+        width: 464px;
+    }
+
+    .contact-form textarea {
+
+        font-size: 15px;
+        padding: 10px;
+        width: 464px;
+        height: 90px;
+    }
+
+    .contact-form input[ type=submit] {
+
+        padding: 12px 24px;
+        margin-bottom: 50px;
+    }
+
+
+    .contact-email h5 {
+
+        padding-left: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .contact-email h5::after {
+
+        width: 215px;
+        left: 10px;
+    }
+
+    .contact-email h3 {
+
+        font-size: 18px;
+        padding-left: 10px;
+        max-width: 209px;
+    }
+
+    .contact-email .icon span {
+
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .contact-map iframe {
+
+        margin-left: 10px;
+        width: 1004px;
+        height: 350px;
+    }
+
+    .footer img {
+
+        margin-top: 40px;
+        width: 100px;
+
+    }
+
+    .footer h3 {
+
+        font-size: 20px;
+    }
+
+    .footer p {
+
+        font-size: 14px;
+        max-width: 377px;
+    }
+
+
+    .footer-right h1 {
+
+        padding-top: 40px;
+        font-size: 22px;
+    }
+
+    .footer-right h3 {
+
+        font-size: 16px;
+
+    }
+
+    .footer-right .icon span {
+
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:991px) {
+
+    .container {
+
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .contact h1 {
+
+        font-size: 55px;
+        padding-top: 40px;
+        padding-bottom: 15px;
+    }
+
+    .contact h1::after {
+
+        width: 748px;
+    }
+
+    .contact-message h1 {
+
+        font-size: 40px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+
+    }
+
+    .contact-form {
+
+        padding-top: 30px;
+    }
+
+    .contact-form input[ type=text] {
+
+        font-size: 14px;
+        padding: 8px;
+        width: 183px;
+    }
+
+    .contact-form input[ type=email] {
+
+        font-size: 14px;
+        padding: 8px;
+        width: 369px;
+    }
+
+    .contact-form textarea {
+
+
+        font-size: 14px;
+        padding: 8px;
+        width: 369px;
+        height: 80px;
+    }
+
+    .contact-form input[ type=submit] {
+
+        padding: 10px 20px;
+        margin-bottom: 30px;
+    }
+
+    .contact-email h5::after {
+
+        width: 155px;
+    }
+
+    .contact-email h5 {
+
+        padding-bottom: 10px;
+    }
+
+    .contact-email h3 {
+
+        font-size: 16px;
+        max-width: 156px;
+    }
+
+    .contact-email .icon span {
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    .contact-map iframe {
+
+        width: 748px;
+        height: 300px;
+        margin-top: 30px;
+    }
+
+    .footer img {
+
+        margin-top: 30px;
+    }
+
+    .footer-right h1 {
+
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .container {
+
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    [ class *="col-"] {
+
+        width: 100%;
+    }
+
+
+
+    .contact h1 {
+        font-size: 40px;
+        padding-top: 30px;
+        padding-bottom: 12px;
+    }
+
+    .contact h1::after {
+
+        width: 300px;
+    }
+
+    .contact-message h1 {
+        font-size: 30px;
+        padding-top: 25px;
+        padding-bottom: 12px;
+    }
+
+    .contact-message p{
+
+        max-width: 300px;
+    }
+
+    .contact-form label{
+
+        padding-left: 10px;
+    }
+
+    .contact-form input[ type=text]{
+
+        margin-left: 10px;
+        width: 144px;
+        padding: 7px;
+    }
+
+    .contact-form input[ type=email]{
+          
+        margin-left: 10px;
+        width: 302px;
+        padding: 7px;
+    }
+
+    .contact-form textarea{
+
+        margin-left: 10px;
+        width: 302px;
+        padding: 7px;
+
+    }
+
+    .contact-form input[ type=submit]{
+
+        margin-left: 10px;
+    }
+
+    .contact-email h5{
+
+        font-size: 15px;
+
+    }
+
+    .contact-email h5::after{
+
+        width: 300px;
+    }
+
+    .contact-email h3{
+
+        font-size: 17px;
+        max-width: 300px;
+        padding-bottom: 12px;
+    }
+
+    .contact-email .icon span{
+
+        margin-right: 0;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .contact-map iframe{
+
+        width: 300px;
+    }
+
+    .footer p{
+
+        max-width: 300px;
+    }
+
+    .footer-right h3{
+
+        padding-bottom: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?45680409');
+    src: url('../font/fontello.eot?45680409#iefix') format('embedded-opentype'),
+        url('../font/fontello.svg?45680409#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url('data:application/octet-stream;base64,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') format('woff'),
+        url('data:application/octet-stream;base64,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') format('truetype');
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: 'fontello';
+      src: url('../font/fontello.svg?45680409#fontello') format('svg');
+    }
+  }
+  */
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: never;
+
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-facebook:before {
+    content: '\e800';
+}
+
+/* '' */
+.icon-quote-left:before {
+    content: '\f10d';
+}
+
+/* '' */
+.icon-quote-right:before {
+    content: '\f10e';
+}
+
+/* '' */
+.icon-dollar:before {
+    content: '\f155';
+}
+
+/* '' */
+.icon-youtube-play:before {
+    content: '\f16a';
+}
+
+/* '' */
+.icon-instagram:before {
+    content: '\f16d';
+}
+
+/* '' */
+.icon-twitter:before {
+    content: '\f309';
+}
+
+/* '' */
+.icon-facebook-circled:before {
+    content: '\f30d';
+}
+
+/* '' */
